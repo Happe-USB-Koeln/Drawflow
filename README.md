@@ -1,8 +1,4 @@
-[![npm](https://img.shields.io/npm/v/drawflow?color=green)](https://www.npmjs.com/package/drawflow)
-![npm](https://img.shields.io/npm/dy/drawflow)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/drawflow)
-[![GitHub license](https://img.shields.io/github/license/jerosoler/Drawflow)](https://github.com/jerosoler/Drawflow/blob/master/LICENSE)
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjerosoler)](https://twitter.com/jerosoler)
+
 # Drawflow
 
 ![Demo](https://github.com/jerosoler/Drawflow/raw/master/docs/drawflow.gif)
@@ -57,30 +53,9 @@ Installing only a javascript library and with four lines of code.
 - Vue Support component nodes && Nuxt
 
 ## Installation
-Download or clone repository and copy the dist folder, CDN option Or npm.  
+Download or clone repository and copy the dist folder.  
 #### Clone
-`git clone https://github.com/jerosoler/Drawflow.git`
-
-#### CDN
-```html
-# Last
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jerosoler/Drawflow/dist/drawflow.min.css">
-<script src="https://cdn.jsdelivr.net/gh/jerosoler/Drawflow/dist/drawflow.min.js"></script>
-# or version view releases https://github.com/jerosoler/Drawflow/releases
-<link rel="stylesheet" href="https://unpkg.com/drawflow@x.x.xx/dist/drawflow.min.css" />
-<script src="https://unpkg.com/drawflow@x.x.xx/dist/drawflow.min.js"></script>
-```
-
-#### NPM
-```javascript
-npm i drawflow
-```
-
-### Typescript
-External package. More info [#119](https://github.com/jerosoler/Drawflow/issues/119)
-```javascript
-npm install -D @types/drawflow
-```
+`git clone https://github.com/Happe-USB-Koeln/Drawflow.git`
 
 #### Import
 ```javascript

@@ -39,7 +39,7 @@
   cursor: move;
 }
 
-.drawflow .drawflow-node .inputs, .drawflow .drawflow-node .outputs {
+.drawflow .drawflow-node .drawflow-inputs, .drawflow .drawflow-node .drawflow-outputs {
   width: 0px;
 }
 
@@ -48,7 +48,7 @@
   display: block;
 }
 
-.drawflow .drawflow-node .input, .drawflow .drawflow-node .output {
+.drawflow .drawflow-node .drawflow-input, .drawflow .drawflow-node .drawflow-output {
 
   position: relative;
   width: 20px;
@@ -61,12 +61,12 @@
   margin-bottom: 5px;
 }
 
-.drawflow .drawflow-node .input {
+.drawflow .drawflow-node .drawflow-input {
   left: -27px;
   top: 2px;
   background: yellow;
 }
-.drawflow .drawflow-node .output {
+.drawflow .drawflow-node .drawflow-output {
   right: -3px;
   top: 2px;
 }

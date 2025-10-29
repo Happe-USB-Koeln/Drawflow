@@ -1198,16 +1198,16 @@ export default class Drawflow {
     }
 
     const inputs = document.createElement('div');
-    inputs.classList.add("inputs");
+    inputs.classList.add("drawflow-inputs");
 
     const outputs = document.createElement('div');
-    outputs.classList.add("outputs");
+    outputs.classList.add("drawflow-outputs");
 
     const json_inputs = {}
     for(var x = 0; x < num_in; x++) {
       const input = document.createElement('div');
-      input.classList.add("input");
-      input.classList.add("input_"+(x+1));
+      input.classList.add("drawflow-input");
+      input.classList.add("drawflow-input_"+(x+1));
       json_inputs["input_"+(x+1)] = { "connections": []};
       inputs.appendChild(input);
     }
@@ -1215,8 +1215,8 @@ export default class Drawflow {
     const json_outputs = {}
     for(var x = 0; x < num_out; x++) {
       const output = document.createElement('div');
-      output.classList.add("output");
-      output.classList.add("output_"+(x+1));
+      output.classList.add("drawflow-output");
+      output.classList.add("drawflow-output_"+(x+1));
       json_outputs["output_"+(x+1)] = { "connections": []};
       outputs.appendChild(output);
     }
